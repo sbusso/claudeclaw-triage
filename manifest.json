@@ -6,7 +6,8 @@
   "provides": {
     "dbSchema": true,
     "envKeys": ["TICKET_DEV_CHANNEL_JID", "TICKET_SOURCE_REPO"],
-    "containerEnvKeys": ["GH_TOKEN"]
+    "containerEnvKeys": ["GH_TOKEN"],
+    "allowedDomains": ["api.github.com", "*.github.com"]
   },
   "skills": ["triage", "swe"],
   "agentSkills": ["ticket-triage", "swe-agent"],
